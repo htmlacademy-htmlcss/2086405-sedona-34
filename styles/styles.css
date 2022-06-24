@@ -52,8 +52,10 @@ body {
     text-align: center;
 }
 
-.img-welcome {
+.main-welcome {
     background-image: url("../images/index_background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .main-description {
