@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <nav class="page-navigation">
-        <a class="page-navigation-link" href="index.html">
+        <a class="page-navigation-logo">
           <img class="header-logo" alt="Логотип городка Седона" src="images/logo.svg" width="139" height="70">
           <span class="visually-hidden">
             На главную
@@ -18,7 +18,7 @@
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html">
+            <a class="navigation-link navigation-link-current first-link" href="index.html">
               Главная
             </a>
           </li>
@@ -28,7 +28,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">
+            <a class="navigation-link">
               Гостиницы
             </a>
           </li>
@@ -51,7 +51,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-button" href="#">
+            <a class="navigation-link navigation-link-button" href="#">
               Хочу сюда!
             </a>
           </li>
@@ -161,10 +161,14 @@
                   width="300" height="211">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
-              <h4 class="product-card-name">Гостиница</h4>
-              <b class="product-card-price">От 4000 ₽</b>
-              <a class="product-card-description" href="#">Подробнее</a>
-              <a class="product-card-add" href="#">В избранное</a>
+              <div class="product-card-wrapper">
+                <h4 class="product-card-name">Гостиница</h4>
+                <b class="product-card-price">От 4000 ₽</b>
+              </div>
+              <div class="product-card-button-wrapper">
+                <a class="product-card-description" href="#">Подробнее</a>
+                <a class="product-card-add" href="#">В избранное</a>
+              </div>
             </li>
             <li class="hotel-card-item">
               <a class="hotel-card-link" href="#">
@@ -172,10 +176,14 @@
                   width="300" height="211">
                 <h3 class="product-card-title">Villas at Poco Diablo</h3>
               </a>
-              <h4 class="product-card-name">Гостиница</h4>
-              <b class="product-card-price">От 5000 ₽</b>
-              <a class="product-card-description" href="#">Подробнее</a>
-              <a class="product-card-add" href="#">В избранное</a>
+              <div class="product-card-wrapper">
+                <h4 class="product-card-name">Гостиница</h4>
+                <b class="product-card-price">От 5000 ₽</b>
+              </div>
+              <div class="product-card-button-wrapper">
+                <a class="product-card-description" href="#">Подробнее</a>
+                <a class="product-card-add" href="#">В избранное</a>
+              </div>
             </li>
             <li class="hotel-card-item">
               <a class="hotel-card-link" href="#">
@@ -183,10 +191,14 @@
                   height="211">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
-              <h4 class="product-card-name">Гостиница</h4>
-              <b class="product-card-price">От 2500 ₽</b>
-              <a class="product-card-description" href="#">Подробнее</a>
-              <a class="product-card-add" href="#">В избранное</a>
+              <div class="product-card-wrapper">
+                <h4 class="product-card-name">Гостиница</h4>
+                <b class="product-card-price">От 2500 ₽</b>
+              </div>
+              <div class="product-card-button-wrapper">
+                <a class="product-card-description" href="#">Подробнее</a>
+                <a class="product-card-add" href="#">В избранное</a>
+              </div>
             </li>
             <li class="hotel-card-item">
               <a class="hotel-card-link" href="#">
@@ -194,10 +206,14 @@
                   height="211">
                 <h3 class="product-card-title">GreenTree Inn</h3>
               </a>
-              <h4 class="product-card-name">Гостиница</h4>
-              <b class="product-card-price">От 1500 ₽</b>
-              <a class="product-card-description" href="#">Подробнее</a>
-              <a class="product-card-add" href="#">В избранное</a>
+              <div class="product-card-wrapper">
+                <h4 class="product-card-name">Гостиница</h4>
+                <b class="product-card-price">От 1500 ₽</b>
+              </div>
+              <div class="product-card-button-wrapper">
+                <a class="product-card-description" href="#">Подробнее</a>
+                <a class="product-card-add" href="#">В избранное</a>
+              </div>
             </li>
           </ul>
           <div class="catalog-pagination">
@@ -215,28 +231,38 @@
                 <a class="pagination-link">4</a>
               </li>
               <li class="pagination-item">
+                <a class="pagination-link">...</a>
+              </li>
+              <li class="pagination-item">
                 <a class="pagination-link">10</a>
               </li>
             </ul>
-            <h4 class="pagination-text">Гостиниц на странице:</h4>
-            <select class="select-control" aria-label="Гостиниц на странице">
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-            </select>
+            <div class="pagination-text-select">
+              <h4 class="pagination-text">Гостиниц на странице:</h4>
+              <select class="select-control" aria-label="Гостиниц на странице">
+                <option value="4">1</option>
+                <option value="4">2</option>
+                <option value="5">3</option>
+                <option value="6">4</option>
+              </select>
+            </div>
           </div>
         </section>
         <section class="catalog-subscribe">
-          <h3 class="catalog-subscribe-title">Подпишитесь на рассылку</h3>
-          <p class="catalog-subscribe-paragraph">Только полезная информация и никакого спама, честное
-            бойскаутское!
-          </p>
-          <form class="catalog-subscribe-form" action="" method="post">
-            <input type="email" id="user-email" name="user-email" placeholder="Ваш e-mail">
-            <button class="catalog-subscribe-button" type="submit">
-              Подписаться
-            </button>
-          </form>
+          <div class="catalog-subscribe-wrapper">
+            <h3 class="catalog-subscribe-title">Подпишитесь на рассылку</h3>
+            <p class="catalog-subscribe-paragraph">Только полезная информация и никакого спама, честное
+              бойскаутское!
+            </p>
+            <form class="catalog-subscribe-form" action="" method="post">
+              <div class="catalog-subscribe-form-wrapper">
+                <input type="email" id="user-email" name="user-email" placeholder="Ваш e-mail">
+                <button class="catalog-subscribe-button" type="submit">
+                  Подписаться
+                </button>
+              </div>
+            </form>
+          </div>
         </section>
       </div>
     </main>
@@ -267,12 +293,13 @@
         </section>
         <address class="footer-contacts-address">
           <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          <a class="footer-contacts-address-logo" href="https://htmlacademy.ru">
-            <img class="footer-contacts-address-icon" src="images/HTML_Academy.svg" alt="HTML Academy" width="114.9"
-              height="32.9">
-            <span class="visually-hidden">Сайт разработчика</span>
-          </a>
         </address>
+        <section class="footer-develope-site">
+          <a class="developer-site" href="https://htmlacademy.ru/">
+            <img class="footer-website" src="images/HTML_Academy.svg" alt="HTML Academy" width="114.9" height="32.9">
+            <span class="visually-hidden">HTML Academy</span>
+          </a>
+        </section>
       </div>
     </footer>
   </body>
