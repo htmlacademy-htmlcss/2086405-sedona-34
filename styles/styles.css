@@ -153,12 +153,19 @@ body {
     padding: 0;
 }
 
+.main-search {
+    display: block;
+    width: 1200px;
+    background-color: #ffffff;
+    height: 417px;
+}
+
 .main-subscribe {
     display: block;
     background-image: url("../images/background-4.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-    padding: 94px 200px;
+    padding: 90px 200px;
 }
 
 .img-welcome {
@@ -710,6 +717,7 @@ input[placeholder] {
 
 .catalog-subscribe-wrapper {
     display: block;
+    background-color: #ffffff;
     padding: 94px 200px;
     margin: 0;
 }
