@@ -1708,7 +1708,6 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    padding-bottom: 15px;
 }
  .catalog-filter-item:last-child {
     padding-bottom: 0;
@@ -1717,16 +1716,15 @@ body {
 .control {
     position: relative;
     display: block;
-    padding-left: 40px;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
+    padding-bottom: 15px;
 }
 
 .control-mark {
     position: absolute;
-    top: 2px;
     left: 0;
     width: 20px;
     height: 20px;
@@ -1734,6 +1732,18 @@ body {
     border-radius: 4px;
 }
 
+.checked-checkbox {
+    position: relative;
+    left: 4px;
+}
+
+.control-label-left {
+    padding-left: 40px;
+}
+
+.control-label-right {
+    padding-left: 12px;
+}
 .range {
     display: flex;
     flex-direction: column;
