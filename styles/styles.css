@@ -22,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    min-width: 1200px;
     margin: 0;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
@@ -207,6 +208,17 @@ body {
     background-image: url("../images/index_background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.main-welcome::after {
+    position: absolute;
+    background-image: url(../images/welcome-line.png);
+    background-repeat: no-repeat;
+    z-index: 3;
+    width: 1200px;
+    height: 57px;
+    bottom: 0;
+    content: "";
 }
 
 .welcome-line {
@@ -856,15 +868,15 @@ body {
     margin-bottom: 38px;
 }
 
-.developer-site-logo:hover {
+.developer-site:hover .developer-site-logo{
     fill: #756157;
 }
 
-.developer-site-logo:focus {
+.developer-site:focus .developer-site-logo{
     fill: #756157;
 }
 
-.developer-site-logo:active {
+.developer-site:active .developer-site-logo{
     fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -2038,14 +2050,30 @@ body {
     color: #ffffff;
 }
 
-.breadcrumbs-item {
-    margin-right: 10px;
-}
-
 .breadcrumbs-link {
+    position: relative;
     width: 23px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.breadcrumbs-link::after {
+    position: absolute;
+    background-image: url(../images/arrow-1.svg);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 8px;
+    top: 10px;
+    background-position: center;
+    content: "";
+    display: block;
+    right: -16px;
+}
+
+.breadcrumbs-item:last-child .breadcrumbs-link::after {
+    content: none;
 }
 
 .to-main {
@@ -2053,15 +2081,15 @@ body {
     padding-top: 4px;
 }
 
-.to-main:hover {
+.link-to-main:hover .to-main {
     fill: rgba(255, 255, 255, 0.6);
 }
 
-.to-main:focus {
+.link-to-main:focus to-main {
     fill: #ffffff;
 }
 
-.to-main:active {
+.link-to-main:active to-main {
     fill: rgba(255, 255, 255, 0.3);
 }
 
@@ -2070,7 +2098,7 @@ body {
     padding-bottom: 6px;
 }
 
-.breadcrumbs-link-hotels {
+.link-hotels {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -2078,15 +2106,15 @@ body {
     text-decoration: none;
 }
 
-.breadcrumbs-link-hotels:hover {
+.link-hotels:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link-hotels:focus {
+.link-hotels:focus {
     color: #ffffff;
 }
 
-.breadcrumbs-link-hotels:active {
+.link-hotels:active {
     color: rgba(255, 255, 255, 0.3);
 }
 
