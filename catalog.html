@@ -119,7 +119,7 @@
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
-                          <input class="visually-hidden control-input parking" type="checkbox" name="pool" checked>
+                          <input class="visually-hidden control-input parking" type="checkbox" name="parking" checked>
                           <span class="control-mark"></span>
                           <span class="control-label-left">Парковка</span>
                         </label>
@@ -164,11 +164,13 @@
                     <div class="range">
                       <div class="range-wrapper-inputs">
                         <label class="catalog-filter-label"><input class="range-input left-form" type="number"
-                            name="min-price" value="0" style="width: 124px;"></label>
+                            name="min-price" value="0" style="width: 124px;">
+                          <p class="from">от</p>
+                        </label>
                         <label class="catalog-filter-label"><input class="range-input right-form" type="number"
-                            name="max-price" value="9000" style="width: 124px;"></label>
-                        <p class="from">от</p>
-                        <p class="to">до</p>
+                            name="max-price" value="9000" style="width: 124px;">
+                          <p class="to">до</p>
+                        </label>
                       </div>
                       <div class="range-scale">
                         <div class="range-bar" style="left: -4px; width: 227px;">
@@ -331,22 +333,22 @@
           <div class="catalog-pagination">
             <ul class="pagination">
               <li class="pagination-item pagination-current">
-                <a class="pagination-link">1</a>
+                <a class="pagination-link" href="#">1</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link">2</a>
+                <a class="pagination-link" href="#">2</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link">3</a>
+                <a class="pagination-link" href="#">3</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link">4</a>
+                <a class="pagination-link" href="#">4</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link">...</a>
+                <a class="pagination-link" href="#">...</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link">10</a>
+                <a class="pagination-link" href="#">10</a>
               </li>
             </ul>
             <div class="pagination-text-select">
