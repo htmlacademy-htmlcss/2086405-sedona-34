@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    src: url(../fonts/ptsans-400.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/ptsans-700.woff2) format(woff2);
+    src: url(../fonts/ptsans-700.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -188,6 +188,13 @@ body {
 }
 
 .navigation-user .navigation-link-button {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
     margin-top: 14px;
     margin-bottom: 14px;
     margin-left: 19px;
@@ -325,10 +332,12 @@ body {
 }
 
 .main-search-button {
-    display: inline-block;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
+    display: inline-block;
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
@@ -539,8 +548,6 @@ body {
 
 .main-subscribe-button {
     display: inline-block;
-    font-size: 20px;
-    line-height: 36px;
     border: 0;
     text-align: center;
     text-transform: uppercase;
@@ -603,10 +610,12 @@ body {
 }
 
 .main-subscribe-button {
-    display: block;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
+    display: block;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -832,6 +841,7 @@ body {
 .footer-contacts-address-phone {
     display: block;
     text-decoration: none;
+    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -1498,6 +1508,8 @@ body {
 }
 
 .catalog-sorting-select {
+    font-family: 'PT Sans', "Arial", sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -1628,6 +1640,12 @@ body {
 }
 
 .select-control {
+    font-family: 'PT Sans', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
     margin: 0;
     padding: 0;
     margin-top: 5.5px;
@@ -1670,9 +1688,12 @@ body {
 }
 
 .catalog-subscribe-button {
-    display: block;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
     line-height: 36px;
+    display: block;
     border: 0;
     text-align: center;
     text-transform: uppercase;
@@ -1719,10 +1740,12 @@ body {
 }
 
 .catalog-apply-button {
-    display: inline-block;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    display: inline-block;
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
@@ -1754,10 +1777,12 @@ body {
 }
 
 .catalog-reset-button {
-    display: inline-block;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    display: inline-block;
     text-align: center;
     color: #ffffff;
     margin: 0;
@@ -1833,6 +1858,7 @@ body {
 }
 
 .product-card-rating {
+    font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1948,10 +1974,12 @@ body {
 }
 
 .product-card-description {
-    text-decoration: none;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
@@ -1983,10 +2011,12 @@ body {
 }
 
 .product-card-add {
-    text-decoration: none;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
     border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
