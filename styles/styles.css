@@ -222,7 +222,7 @@ body {
 
 .main-welcome::after {
     position: absolute;
-    background-image: url("../images/welcome-line.png");
+    background-image: url("../images/welcome-line.svg");
     background-repeat: no-repeat;
     z-index: 3;
     width: 1200px;
@@ -920,57 +920,70 @@ body {
     fill: rgba(117, 97, 87, 0.3);
 }
 
+.footer-social-item {
+    width: 47px;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    width: 47px;
+    height: 40px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
 .footer-icon-vk {
-    margin-top: 45px;
-    margin-bottom: 35px;
-    padding: 13px 11px;
+    position: absolute;
+    top: 58px;
+    left: 11px;
 }
 
-.footer-icon-vk:hover {
+.vkontakte:hover .footer-icon-vk {
     fill: #68A2CA;
 }
 
-.footer-icon-vk:focus {
+.vkontakte:focus .footer-icon-vk {
     fill: #68A2CA;
 }
 
-.footer-icon-vk:active {
+.vkontakte:active .footer-icon-vk {
     fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-icon-telegram {
-    margin-top: 45px;
-    margin-bottom: 35px;
-    padding: 12px 14px;
+    position: absolute;
+    top: 57px;
+    left: 14px;
 }
 
-.footer-icon-telegram:hover {
+.telegram:hover .footer-icon-telegram {
     fill: #68A2CA;
 }
 
-.footer-icon-telegram:focus {
+.telegram:focus .footer-icon-telegram {
     fill: #68A2CA;
 }
 
-.footer-icon-telegram:active {
+.telegram:active .footer-icon-telegram {
     fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-icon-youtube {
-    margin-top: 45px;
-    margin-bottom: 35px;
-    padding: 11px 12px;
+    position: absolute;
+    top: 56px;
+    left: 12px;
 }
 
-.footer-icon-youtube:hover {
+.youtube:hover .footer-icon-youtube {
     fill: #68A2CA;
 }
 
-.footer-icon-youtube:focus {
+.youtube:focus .footer-icon-youtube {
     fill: #68A2CA;
 }
 
-.footer-icon-youtube:active {
+.youtube:active .footer-icon-youtube {
     fill: rgba(104, 162, 202, 0.3);
 }
 
