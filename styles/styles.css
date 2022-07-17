@@ -881,7 +881,7 @@ body {
     margin-left: 70px;
 }
 
-.footer-contacts-address{
+.footer-contacts-address {
     display: flex;
     flex-wrap: wrap;
 }
@@ -927,15 +927,15 @@ body {
     margin-bottom: 38px;
 }
 
-.developer-site:hover .developer-site-logo{
+.developer-site:hover .developer-site-logo {
     fill: #756157;
 }
 
-.developer-site:focus .developer-site-logo{
+.developer-site:focus .developer-site-logo {
     fill: #756157;
 }
 
-.developer-site:active .developer-site-logo{
+.developer-site:active .developer-site-logo {
     fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -1189,12 +1189,6 @@ body {
     border-radius: 4px;
 }
 
-.auth-form-field-people::-webkit-outer-spin-button,
-.auth-form-field-people::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-}
-
 .field-group-people input[placeholder] {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
@@ -1422,7 +1416,7 @@ body {
 .main-catalog-filters {
     display: flex;
     flex-wrap: wrap;
-    background-image: url("../images/index-background.jpg");
+    background-image: url("../images/background-5.jpg");
     background-size: cover;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -1431,8 +1425,6 @@ body {
 }
 
 .main-catalog-wrapper {
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
     padding-top: 35px;
     padding-bottom: 50px;
     padding-left: 70px;
@@ -2497,13 +2489,6 @@ body {
     border-radius: 0 4px 4px 0;
 }
 
-.range-input::-webkit-outer-spin-button,
-.range-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    appearance: none;
-    margin: 0;
-}
-
 .range-input:hover {
     outline: 2px solid #FFFFFF;
     opacity: 0.6;
@@ -2573,5 +2558,5 @@ body {
 
 .toogle-max {
     top: -10px;
-    right: -2px;
+    right: -4px;
 }
